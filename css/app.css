@@ -3063,9 +3063,7 @@ a.btn {
   position: relative;
   padding: 136px 0 128px;
   overflow: hidden;
-  background-image: -webkit-linear-gradient(312deg, #6049ff 0%, #fdb44d 100%);
-  background-image: -o-linear-gradient(312deg, #6049ff 0%, #fdb44d 100%);
-  background-image: linear-gradient(138deg, #6049ff 0%, #fdb44d 100%);
+  background-image: linear-gradient(to top, #aad4fc 0%, white 100%);
   text-align: center;
 }
 
@@ -4007,6 +4005,12 @@ a.btn {
   }
   .features__item:not(:last-child) {
     margin-bottom: 64px;
+  }
+  .header__pic {
+    width: 133px !important;
+  }
+  .footer__logo .footer__pic {
+    width: 133px;
   }
 }
 
