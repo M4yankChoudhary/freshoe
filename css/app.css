@@ -2374,7 +2374,7 @@ a.btn {
 .main {
   position: relative;
   padding: 263px 0 128px;
-  background-image: -webkit-linear-gradient(
+  /* background-image: -webkit-linear-gradient(
     -225deg,
     #7085b6 0%,
     #87a7d9 50%,
@@ -2391,8 +2391,14 @@ a.btn {
     #7085b6 0%,
     #87a7d9 50%,
     #def3f8 100%
-  );
+  ); */
+  background-image: url('../img/freshoe-header-org.jpg');
+  /* background-size: contain;
+  background-repeat: space; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: #fff;
+  background-attachment: fixed;
 }
 
 .main__center {
