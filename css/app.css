@@ -4047,9 +4047,6 @@ a.btn {
     background-size: cover;
     background-position: 20%;
     overflow-y: hidden;
-    -webkit-transform: translate3d(0,0,0) !important;
-    transform: translate3d(0,0,0) !important;
-    -webkit-transform: translate3d(0,0,0) !important;
   }
 }
 
