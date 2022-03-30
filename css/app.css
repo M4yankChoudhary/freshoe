@@ -2398,7 +2398,8 @@ a.btn {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #fff;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  z-index: -1;
 }
 
 .main__center {

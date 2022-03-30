@@ -3204,3 +3204,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       }), "DOMContentLoaded" === ae.startEvent && ["complete", "interactive"].indexOf(document.readyState) > -1 && ce(!0), window.addEventListener("resize", $(ce, ae.debounceDelay, !0)), window.addEventListener("orientationchange", $(ce, ae.debounceDelay, !0)), oe);
     }, refresh: ce, refreshHard: se };
 });
+
+$(document).scroll(function() {
+  var scroll = $(window).scrollTop();
+  $(".main").css("top", "0" + (scroll / 1.8) + "px");
+});
