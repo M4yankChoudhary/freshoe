@@ -4036,6 +4036,10 @@ a.btn {
   .header__link:not(:last-child) {
     margin-bottom: 40px;
   }
+  .main {
+    background-size: cover;
+    background-position: 20%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
