@@ -3205,7 +3205,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     }, refresh: ce, refreshHard: se };
 });
 
+// important for 3d parrallax
 $(document).scroll(function() {
   var scroll = $(window).scrollTop();
-  $(".main").css("top", "0" + (scroll / 1.8) + "px");
+  $(".main").css("top", "0" + (scroll /1.5) + "px");
 });

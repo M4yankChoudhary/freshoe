@@ -2398,8 +2398,14 @@ a.btn {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #fff;
-  background-attachment: scroll;
+  background-attachment: fixed;
   z-index: -1;
+  -webkit-transition: ease 2;
+  -o-transition: ease 2;
+  transition: ease 2;
+  transform:translatez(0);
+-webkit-transform:translatez(0);
+-o-transform: translatez(0);
 }
 
 .main__center {
@@ -3993,11 +3999,11 @@ a.btn {
 }
 
 .appstoreimg {
-  margin-left: 130%;
+  margin-left: 92%;
 }
 @media only screen and (max-width: 666px) {
   .appstoreimg {
-    margin-left: 70%;
+    margin-left: 12%;
     margin-top: 3% !important;
     margin-bottom: 10%;
   }
