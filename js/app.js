@@ -3206,7 +3206,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 // important for 3d parrallax
-$(document).scroll(function() {
-  var scroll = $(window).scrollTop();
-  $(".main").css("top", "0" + (scroll /1.1) + "px");
-});
+// $(document).scroll(function() {
+//   var scroll = $(window).scrollTop();
+//   $(".main").css("top", "0" + (scroll / 7) + "px");
+// });
